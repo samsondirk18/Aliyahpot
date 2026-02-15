@@ -18,10 +18,10 @@
         
         <button onclick="loadContent(0)">Miss na kita</button> <!-- Song -->
         <button onclick="loadContent(1)">Galit ako sayo</button> <!-- Song -->
-        <button onclick="loadContent(1)">Galit ako sayo</button> <!-- Song -->
-        <button onclick="loadContent(1)">Galit ako sayo</button> <!-- Song -->
-        <button onclick="loadContent(1)">Galit ako sayo</button> <!-- Song -->
-        <button id="speak-btn" style="display:none; background:green;">Listen to Text</button>
+        <button onclick="loadContent(2)">Mahal kita today</button> <!-- Song -->
+        <button onclick="loadContent(3)">Im sad</button> <!-- Song -->
+        <button onclick="loadContent(4)">Galit ako sa mundo</button> <!-- Song -->
+        <button onclick="loadContent(5)">I'm stressed</button> <!-- Song -->
     </div>
 
     <script>
@@ -37,14 +37,8 @@
             document.getElementById('video-container').innerHTML = 
                 `<iframe src="${item.videoUrl}" allowfullscreen></iframe>`;
 
-            // 3. Make the "Listen" button work
-            const speakBtn = document.getElementById('speak-btn');
-            speakBtn.style.display = 'inline-block';
-            speakBtn.onclick = () => {
-                const speech = new SpeechSynthesisUtterance(item.text);
-                window.speechSynthesis.speak(speech);
+
             };
-        }
     </script>
 </body>
 </html>
