@@ -1,9 +1,10 @@
 [
-  { "id": 1, "title": "Miss na kita", "text": "awww", "videoUrl": "https://youtu.be/OKTPOnMbbDo?si=Ijg4aXPtL7FfD_57" },
+  { "id": 1, "title": "Miss na kita", "text": "awww", "videoUrl": "https://www.youtube.com/embed/OKTPOnMbbDo?si=Ijg4aXPtL7FfD_57" },
   { "id": 2, "title": "Galit ako sayo", "text": "Hala why?", "videoUrl": "..." },
   { "id": 3, "title": "Mahal kita today", "text": "Love you too!", "videoUrl": "..." },
   { "id": 4, "title": "Im sad", "text": "Hugs!", "videoUrl": "..." },
   { "id": 5, "title": "Galit ako sa mundo", "text": "Chill lang bebu", "videoUrl": "..." },
   { "id": 6, "title": "I'm stressed", "text": "Take a break", "videoUrl": "..." }
 ]
+
 
