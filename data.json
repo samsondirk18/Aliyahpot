@@ -1,59 +1,8 @@
 [
-
-  {
-
-    "id": 0,
-
-    "title": "Miss na kita",
-
-    "text": "awww",
-
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
-
-  },
-
-  {
-
-    "id": 1,
-
-    "title": "wahoo",
-
-    "text": "dubidubi",
-
-    "videoUrl": "https://www.youtube.com/embed/another_id"
-
-  },
-
-  {
-
-    "id": 2,
-
-    "title": "-----",
-
-    "text": "-----",
-
-    "videoUrl": "https://www.youtube.com/embed/another_id"
-
-  },
-
-  {
-
-    "id": 3,
-
-    "title": "----",
-
-    "text": "-----",
-
-    "videoUrl": "https://www.youtube.com/embed/another_id"
-
-  },
-
-  {
-
-    "id": 4,
-
-    "title": "----",
-  }
+  { "id": 1, "title": "Miss na kita", "text": "awww", "videoUrl": "https://youtu.be/OKTPOnMbbDo?si=Yec09WVbAkXziXuy" },
+  { "id": 2, "title": "Galit ako sayo", "text": "Hala why?", "videoUrl": "..." },
+  { "id": 3, "title": "Mahal kita today", "text": "Love you too!", "videoUrl": "..." },
+  { "id": 4, "title": "Im sad", "text": "Hugs!", "videoUrl": "..." },
+  { "id": 5, "title": "Galit ako sa mundo", "text": "Chill lang bebu", "videoUrl": "..." },
+  { "id": 6, "title": "I'm stressed", "text": "Take a break", "videoUrl": "..." }
 ]
-
-
