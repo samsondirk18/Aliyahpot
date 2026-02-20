@@ -1,4 +1,7 @@
+<!DOCTYPE html>
+<html>
 <head>
+    <head>
     <title>Hi bebu</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,17 +41,37 @@
             background: #ff6aff; 
             color: white; 
         }
-        
-        /* --- END OF CSS BLOCK --- */
-    </style>
 </head>
-
 <body>
+
     <div id="content-box">
-        <h1 class="cute-font-regular">This title uses the Cute Font!</h1>
+        <h1 id="title">How do you feel today?</h1>
+        <p id="description">Choose from the buttons</p>
+        <div id="video-container"></div>
         
-        <p>This paragraph uses the normal system font.</p>
-        
-        <button class="cute-font-regular">Cute Button</button>
+        <button onclick="loadContent(0)">Miss na kita</button> <!-- Song -->
+        <button onclick="loadContent(1)">Galit ako sayo</button> <!-- Song -->
+        <button onclick="loadContent(2)">Mahal kita today</button> <!-- Song -->
+        <button onclick="loadContent(3)">Im sad</button> <!-- Song -->
+        <button onclick="loadContent(4)">Galit ako sa mundo</button> <!-- Song -->
+        <button onclick="loadContent(5)">I'm stressed</button> <!-- Song -->
     </div>
+
+    <script>
+        async function loadContent(index) {
+            // 1. Fetch data from your "database" file
+            const response = await fetch('data.json');
+            const data = await response.json();
+            const item = data[index];
+
+            // 2. Update the UI
+            document.getElementById('title').innerText = item.title;
+            document.getElementById('description').innerText = item.text;
+            document.getElementById('video-container').innerHTML = 
+                `<iframe src="${item.videoUrl}" allowfullscreen></iframe>`;
+
+
+            };
+    </script>
 </body>
+</html>
