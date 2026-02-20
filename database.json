@@ -1,19 +1,4 @@
 [
-  {
-    "id": 1,
-    "title": "Miss na kita",
-    "text": "awww",
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ" 
-  },
-  {
-    "id": 2,
-    "title": "Galit ako sayo",
-    "text": "Hala why?",
-    "videoUrl": "https://www.youtube.com/embed/9bZkp7q19f0"
-  }
-]
-
-[
   { "id": 1, 
     "title": "Miss na kita", 
     "text": "awww", 
@@ -48,4 +33,5 @@
     "videoUrl": "..."
   }
 ]
+
 
