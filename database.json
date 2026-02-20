@@ -1,8 +1,14 @@
 [
-  { "id": 1, "title": "Test 1", "text": "Testing...", "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ" },
-  { "id": 2, "title": "Test 2", "text": "Testing...", "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ" },
-  { "id": 3, "title": "Test 3", "text": "Testing...", "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ" },
-  { "id": 4, "title": "Test 4", "text": "Testing...", "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ" },
-  { "id": 5, "title": "Test 5", "text": "Testing...", "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ" },
-  { "id": 6, "title": "Test 6", "text": "Testing...", "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ" }
+  {
+    "id": 1,
+    "title": "Miss na kita",
+    "text": "awww",
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ" 
+  },
+  {
+    "id": 2,
+    "title": "Galit ako sayo",
+    "text": "Hala why?",
+    "videoUrl": "https://www.youtube.com/embed/9bZkp7q19f0"
+  }
 ]
