@@ -78,7 +78,7 @@
         async function loadContent(index) {
             try {
                 // IMPORTANT: Changed this to 'database.json' since you renamed it!
-                const response = await fetch('database.json');
+                const response = await fetch('data.json');
                 const data = await response.json();
                 const item = data[index];
 
@@ -98,3 +98,4 @@
     </script>
 </body>
 </html>
+
